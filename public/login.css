@@ -1,0 +1,11 @@
+.body{
+    height: 300px;
+    width: 500px;
+    background-color: black;
+}
+
+.h2{
+    height: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 
-mongoose.connect("mongodb://localhost:27017/LoginPage")
+mongoose.connect("mongodb+srv://olatomeewa:JMVgK5Znyxt4ox3L@cluster0.9m7zte3.mongodb.net/")
 .then(() =>{
     console.log("mongodb connected");
 })
@@ -20,6 +20,6 @@ const LogInSchema = new mongoose.Schema({
     }
 })
 
-const collection = new mongoose.model("Collection1",LogInSchema)
+const collection = new mongoose.model("LoginCollection",LogInSchema)
 
 module.exports = collection
